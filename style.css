@@ -27,20 +27,20 @@ header .container {
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 0;
-  margin: 0;                /* no extra space */
 }
 
 .logo {
   font-size: 1.9rem;
   font-weight: 700;
-  color: #3b82f6;           /* blue for name in header */
+  color: #10b981;           /* changed to green */
   margin: 0;
-  padding-left: 0;          /* touches very left */
+  padding-left: 100px;      /* 100px space from very left edge */
 }
 
 nav {
   display: flex;
   align-items: center;
+  padding-right: 10px;      /* only 10px space before menu items on right */
 }
 
 nav a {
@@ -53,11 +53,11 @@ nav a {
 }
 
 nav a:first-child {
-  margin-left: 0;           /* first menu item touches right side */
+  margin-left: 0;           /* no margin on first item – touches right */
 }
 
 nav a:hover {
-  color: #10b981;           /* green on hover */
+  color: #10b981;
 }
 
 /* Hero */
